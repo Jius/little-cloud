@@ -65,6 +65,9 @@ group :development do
 
   # A Ruby static code analyzer and formatter, based on the community Ruby style guide. [https://github.com/rubocop/rubocop]
   gem 'rubocop', require: false
+
+  # A library for generating fake data such as names, addresses, and phone numbers. [https://github.com/faker-ruby/faker]
+  gem 'faker'
 end
 
 group :test do
