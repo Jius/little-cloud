@@ -1,9 +1,5 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  city: MyString
-
-two:
-  name: MyString
-  city: MyString
+lespinasse:
+  name: Lespinasse CM1/CM2 2022
+  city: Lespinasse
