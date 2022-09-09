@@ -1,14 +1,18 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Classrooms</h1>
+<h1>Classes</h1>
+
+<% if @classrooms.empty? %>
+  <p>Aucune classe créée</p>
+<% end %>
 
 <div id="classrooms">
   <% @classrooms.each do |classroom| %>
     <%= render classroom %>
     <p>
-      <%= link_to "Show this classroom", classroom %>
+      <%= link_to "Voir", classroom %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New classroom", new_classroom_path %>
+<%= link_to "Ajouter une classe", new_classroom_path %>

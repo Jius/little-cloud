@@ -3,8 +3,8 @@
 <%= render @classroom %>
 
 <div>
-  <%= link_to "Edit this classroom", edit_classroom_path(@classroom) %> |
-  <%= link_to "Back to classrooms", classrooms_path %>
+  <%= link_to "Modifier", edit_classroom_path(@classroom) %> |
+  <%= link_to "Voir mes classes", classrooms_path %>
 
-  <%= button_to "Destroy this classroom", @classroom, method: :delete %>
+  <%= button_to "Supprimer", @classroom, method: :delete %>
 </div>
