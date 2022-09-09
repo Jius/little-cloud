@@ -1,0 +1,8 @@
+fr:
+  activerecord:
+    models:
+      classroom: Classe
+    attributes:
+      classroom:
+        name: Nom
+        city: Ville
